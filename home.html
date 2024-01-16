@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var h1 = document.createElement("h1");
+      h1.innerText = "Type into the input to make this text change";
+
+      var input = document.createElement("input");
+      input.setAttribute("type", "text");
+
+      document.body.innerText = "";
+      document.body.appendChild(h1);
+      document.body.appendChild(input);
+      input.addEventListener("keyup", function () {
+        h1.innerText = input.value;
+      });
+      switch (key) {
+        case value:
+            
+            break;
+      
+        default:
+            break;
+      }
+    </script>
+  </body>
+</html>
